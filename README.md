@@ -18,3 +18,7 @@ This project uses weights for the ArcFace, AdaFace, and TransFace models. Please
 ### Important Note
 
 After adding the weights, ensure that the paths to these weight files are correctly set in the `utils` and `main` files. This is crucial for the proper functioning of the face recognition models.
+
+## Experimental Work
+
+To run the experiments, navigate to the `/experimental_work` folder and run the `main.py` script.
