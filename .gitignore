@@ -1,0 +1,4 @@
+face_recognition/arcface/weights.pth
+face_recognition/adaface/weights.ckpt
+face_recognition/transface/weights.pt
+datasets/
