@@ -5,7 +5,7 @@ We introduce a novel Face Image Quality Assessment (FIQA) methodology that focus
 
 ## Documentation
 
-For detailed information, see our [seminar paper](docs/).
+For detailed information, see our [seminar paper](docs/SBSSeminar.pdf).
 
 ## Model Weights
 
