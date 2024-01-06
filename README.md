@@ -2,18 +2,17 @@
 
 We introduce a novel Face Image Quality Assessment (FIQA) methodology that focuses on the stability of face embeddings in the embedding space, evaluated through controlled perturbations. Our approach is predicated on the hypothesis that the quality of facial images is directly correlated with the stability of their embeddings; lower-quality images tend to exhibit greater variability upon perturbation.
 
-
 ## Documentation
 
-For detailed information, see our [seminar paper](docs/SBSSeminar.pdf).
+For detailed information, see our seminar paper: [seminar paper](docs/SBSSeminar.pdf).
 
 ## Model Weights
 
-This project uses weights for the ArcFace, AdaFace, and TransFace models. Please download the weights and place them in their respective directories:
+This project uses weights for the ArcFace, AdaFace, and TransFace models. The weights for these models must be downloaded and placed in their respective directories as described below:
 
-- ArcFace weights should be placed in `face_recognition/arcface`
-- AdaFace weights should be placed in `face_recognition/adaface`
-- TransFace weights should be placed in `face_recognition/transface`
+- ArcFace weights: Place in `face_recognition/arcface`. Refer to the ArcFace paper for more details: [ArcFace: Additive Angular Margin Loss for Deep Face Recognition](https://arxiv.org/abs/1801.07698).
+- AdaFace weights: Place in `face_recognition/adaface`. For implementation details, visit the AdaFace paper: [AdaFace: Quality Adaptive Margin for Face Recognition](https://arxiv.org/abs/2204.00964).
+- TransFace weights: Place in `face_recognition/transface`. The methodology is detailed in the TransFace paper: [TransFace: Translating a Face Embedding to a Recognizable Image](https://arxiv.org/abs/2308.10133).
 
 ### Important Note
 
@@ -21,4 +20,4 @@ After adding the weights, ensure that the paths to these weight files are correc
 
 ## Experimental Work
 
-To run the experiments, navigate to the `/experimental_work` folder and run the `main.py` script.
+To run the experiments, navigate to the `/experimental_work` folder and execute the `main.py` script.
