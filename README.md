@@ -10,8 +10,8 @@ For detailed information, see our seminar paper: [seminar paper](docs/SBSSeminar
 This project uses weights for the ArcFace, AdaFace, and TransFace models. The weights for these models must be downloaded and placed in their respective directories as described below:
 
 - ArcFace weights: Place in `face_recognition/arcface`. Refer to the ArcFace paper for more details: [ArcFace: Additive Angular Margin Loss for Deep Face Recognition](https://arxiv.org/abs/1801.07698).
-- AdaFace weights: Place in `face_recognition/adaface`. Refer to the ArcFace paper for more details: [AdaFace: Quality Adaptive Margin for Face Recognition](https://arxiv.org/abs/2204.00964).
-- TransFace weights: Place in `face_recognition/transface`. Refer to the ArcFace paper for more details: [TransFace: Translating a Face Embedding to a Recognizable Image](https://arxiv.org/abs/2308.10133).
+- AdaFace weights: Place in `face_recognition/adaface`. Refer to the AdaFace paper for more details: [AdaFace: Quality Adaptive Margin for Face Recognition](https://arxiv.org/abs/2204.00964).
+- TransFace weights: Place in `face_recognition/transface`. Refer to the TransFace paper for more details: [TransFace: Translating a Face Embedding to a Recognizable Image](https://arxiv.org/abs/2308.10133).
 
 ### Important Note
 
