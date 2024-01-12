@@ -311,4 +311,3 @@ def plot_multiple_quality_scores_distribution(file_paths):
 if __name__ == '__main__':
     calculate_quality_scores()
     plot_all_EDC()
-    # plot_multiple_quality_scores_distribution(["C:\\Users\\jerne\\Desktop\\FAKS\\MAG2\\Biometricni_sistemi\\BS_projekt\\experimental_tools\\results\\arcface_o\\xqlfw\\xqlfw_affine_quality_scores.pkl", "C:\\Users\\jerne\\Desktop\\FAKS\\MAG2\\Biometricni_sistemi\\BS_projekt\\experimental_tools\\results\\arcface_o\\cplfw\\cplfw_affine_quality_scores.pkl", "C:\\Users\\jerne\\Desktop\\FAKS\\MAG2\\Biometricni_sistemi\\BS_projekt\\experimental_tools\\results\\arcface_o\\adience\\adience_affine_quality_scores.pkl"])
