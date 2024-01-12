@@ -1,5 +1,7 @@
 # FIQA Perturbations
 
+![Alt text](docs/idea/your-image-filename.ext)
+
 We introduce a novel Face Image Quality Assessment (FIQA) methodology that focuses on the stability of face embeddings in the embedding space, evaluated through controlled perturbations. Our approach is predicated on the hypothesis that the quality of facial images is directly correlated with the stability of their embeddings; lower-quality images tend to exhibit greater variability upon perturbation. We have evaluated our model on three different FR models and three different datasets. We have also compared the results to state-of-the-art methods.
 ## Documentation
 
