@@ -1,8 +1,13 @@
 # FIQA Perturbations
+We introduce a novel Face Image Quality Assessment (FIQA) methodology that focuses on the stability of face embeddings in the embedding space, evaluated through controlled perturbations. Our approach is predicated on the hypothesis that the quality of facial images is directly correlated with the stability of their embeddings; lower-quality images tend to exhibit greater variability upon perturbation. We have evaluated our model on three different FR models and three different datasets. We have also compared the results to state-of-the-art methods.
 
 ![Alt text](docs/idea.png)
+This schematic depicts the process of assessing image quality through a novel perturbation technique. Initially, the original image undergoes controlled perturbations to create a variant, symbolizing potential quality degradation. Both the original and perturbed images are then transformed into the embedding space using a Face Recognition (FR) model. In this space, we compute the cosine similarity between the embeddings of the original and perturbed images. The core hypothesis of our technique is that for lower-quality images, perturbations in the input space lead to more significant deviations in the embedding space, thereby resulting in a lower similarity score between the original and perturbed images. This stability of image embedding forms the backbone of our FIQA methodology. The quality scores displayed on the image are obtained using affine perturbation with the ArcFace FR model on the XQLFW database.
 
-We introduce a novel Face Image Quality Assessment (FIQA) methodology that focuses on the stability of face embeddings in the embedding space, evaluated through controlled perturbations. Our approach is predicated on the hypothesis that the quality of facial images is directly correlated with the stability of their embeddings; lower-quality images tend to exhibit greater variability upon perturbation. We have evaluated our model on three different FR models and three different datasets. We have also compared the results to state-of-the-art methods.
+In our experimentation, we systematically explored a variety of perturbation techniques, including affine transformations, Poisson noise, Gaussian noise, and salt-and-pepper noise. Additionally, we investigated the effects of both random and structured occlusions, as well as elastic transformations and mixup transformations.
+![Alt text](docs/methodology.png)
+
+
 ## Documentation
 
 For detailed information, see our seminar paper: [seminar paper](docs/SBSSeminar.pdf).
