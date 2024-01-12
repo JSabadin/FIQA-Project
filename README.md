@@ -8,6 +8,13 @@ In our experimentation, we systematically explored a variety of perturbation tec
 ![Alt text](docs/methodology.png)
 
 
+
+![Alt text](docs/results.png)
+In our study, we compared various perturbation-based FIQA techniques with top state-of-the-art methods using non-interpolated EDC curves. Our findings reveal that affine transformation, in particular, shows remarkable performance, closely rivaling leading methodologies like DifFIQA and FaceQAN. These results underscore the potential of perturbation approaches in enhancing FIQA systems and set new benchmarks for future research in the field.
+
+
+
+
 ## Documentation
 
 For detailed information, see our seminar paper: [seminar paper](docs/SBSSeminar.pdf).
